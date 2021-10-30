@@ -7,6 +7,7 @@ const options = {
   host: "127.0.0.1",
   port: 8080,
   path: genPath(140).concat("/api"),
+  method: "POST",
 };
 
 // Make a request
